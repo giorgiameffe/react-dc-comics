@@ -1,4 +1,4 @@
-
+// Funzione FooterInfo
 
 export default function FooterInfo() {
     return (
