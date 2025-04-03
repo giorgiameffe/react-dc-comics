@@ -1,5 +1,5 @@
 // Funzione Main
 
 export default function Main() {
-    return (<main>Main</main>);
+    return (<main><h2>-- Content goes here --</h2></main>);
 }

@@ -6,7 +6,7 @@ import logo from '../assets/img/dc-logo.png';
 export default function Header() {
     return (
         <header>
-            <nav className='pl-pd'>
+            <nav>
                 <img className='dc-logo' src={logo} alt="Logo-dc" />
                 <ul className='menu-list'>
                     <li>Characters</li>

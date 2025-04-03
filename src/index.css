@@ -10,10 +10,6 @@ ul {
   list-style-type: none;
 }
 
-.pl-pd {
-  padding: 0px 200px;
-}
-
 /* Body */
 
 #root {
@@ -27,6 +23,7 @@ ul {
 nav {
   display: flex;
   justify-content: space-between;
+  padding: 0px 200px;
 }
 
 /* logo */
@@ -45,4 +42,15 @@ nav {
   font-size: 10px;
   font-weight: bold;
   color: #464646;
+}
+
+/* Main */
+
+main {
+  background-color: #000000;
+  padding: 50px 200px;
+}
+
+main h2 {
+  color: #ffffff;
 }
