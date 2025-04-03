@@ -7,7 +7,9 @@ export default function Header() {
     return (
         <header>
             <nav>
-                <img className='dc-logo' src={logo} alt="Logo-dc" />
+                <div className='logo'>
+                    <img src={logo} alt="Logo-dc" />
+                </div>
                 <ul className='menu-list'>
                     <li>Characters</li>
                     <li>Comics</li>
