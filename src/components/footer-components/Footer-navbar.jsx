@@ -14,23 +14,23 @@ export default function FooterNavbar() {
         <nav className='nav-element'>
             <ul className="f-navbar">
                 <li>
-                    <img className='f-images' src={ComicsDigital} alt="Digital Comics" />
+                    <img className='f-images' src={ComicsDigital} alt="Digital Comics Icon" />
                     <div className='navbar-text'>Digital Comics</div>
                 </li>
                 <li>
-                    <img className='f-images' src={Merchandise} alt="" />
+                    <img className='f-images' src={Merchandise} alt="Merchandise Icon" />
                     <div className='navbar-text'>Dc Merchandise</div>
                 </li>
                 <li>
-                    <img className='f-images' src={Subscription} alt="" />
+                    <img className='f-images' src={Subscription} alt="Subscription Icon" />
                     <div className='navbar-text'>Subscription</div>
                 </li>
                 <li>
-                    <img className='f-images' src={ShopLocator} alt="" />
+                    <img className='f-images' src={ShopLocator} alt="Shop Locator Icon" />
                     <div className='navbar-text'>Comic Shop Locator</div>
                 </li>
                 <li>
-                    <img className='f-images' src={PowerVisa} alt="" />
+                    <img className='f-images' src={PowerVisa} alt="Power Visa Icon" />
                     <div className='navbar-text'>Dc Power Visa</div>
                 </li>
             </ul>

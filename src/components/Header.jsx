@@ -1,4 +1,4 @@
-// Logo
+// importazione logo
 import logo from '../assets/img/dc-logo.png';
 
 // Funzione Header 
