@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 /* Root */
 
 #root {
@@ -32,59 +37,73 @@ a {
 header nav {
   display: flex;
   justify-content: space-between;
-  padding: 0px 200px;
   align-items: center;
+}
+
+/* logo */
+
+.logo {
+  cursor: pointer;
 }
 
 /* menu */
 
 .menu-list {
   display: flex;
-  align-items: center;
   gap: 30px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: bold;
-  color: #464646;
+  cursor: pointer;
 }
 
 .menu-list li {
-  padding: 70px 0px;
+  padding: 60px 0px;
   border-bottom: 3px solid transparent;
 }
 
 .menu-list li:hover {
   border-bottom: 3px solid #0282f9;
-  color: #0282f9;
 }
 
+.menu-list a {
+  color: #464646;
+}
+
+.menu-list a:hover {
+  color: #0282f9;
+}
 
 /* Main */
 
 main {
   background-color: #000000;
-  padding: 50px 200px;
 }
 
 main h2 {
   color: #ffffff;
+  padding: 50px 0px;
 }
 
 /* Footer navbar */
 
+.nav-element {
+  background-color: #0282f9;
+}
+
 .f-navbar {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: #0282f9;
   color: #ffffff;
   gap: 30px;
-  padding: 40px 200px;
+  padding: 40px 0px;
 }
 
 .f-navbar li {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 /* navbar img */
@@ -103,10 +122,13 @@ main h2 {
 
 /* Footer info */
 
+.info {
+  background-image: url(./assets/img/footer-bg.jpg);
+}
+
 .raw {
   display: flex;
-  background-image: url(./assets/img/footer-bg.jpg);
-  padding: 45px 200px;
+  padding: 45px 0px;
   gap: 30px;
 }
 
@@ -118,25 +140,33 @@ h3 {
 }
 
 .list-info {
-  color: #959595;
   padding-bottom: 20px;
   font-size: 12px;
   line-height: 25px;
+  cursor: pointer;
+}
+
+.list-info a {
+  color: #959595;
 }
 
 /* Footer socials */
 
+.social-banner {
+  background-color: #303030;
+}
+
 .social-container {
-  padding: 30px 200px;
+  padding: 30px 0px;
   display: flex;
   justify-content: space-between;
-  background-color: #303030;
   align-items: center;
 }
 
 /* social btn */
 
 .sign-up-btn {
+  all: unset;
   text-transform: uppercase;
   color: #ffffff;
   border: 2px solid #0282f9;

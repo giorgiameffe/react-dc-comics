@@ -1,7 +1,5 @@
 // importazione link Menu
 import MenuLink from "./Menu-link.jsx";
-import menuLinks from '../Header.jsx';
-import Header from '../Header.jsx';
 
 // Funzione Menu
 

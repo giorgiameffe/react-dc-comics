@@ -1,27 +1,33 @@
 // importazione immagini 
-import FacebookIcon from '../../assets/img/footer-facebook.png';
-import TwitterIcon from '../../assets/img/footer-twitter.png';
-import YoutubeIcon from '../../assets/img/footer-youtube.png';
-import PinterestIcon from '../../assets/img/footer-pinterest.png';
-import PeriscopeIcon from '../../assets/img/footer-periscope.png';
+import facebookIcon from '../../assets/img/footer-facebook.png';
+import twitterIcon from '../../assets/img/footer-twitter.png';
+import youtubeIcon from '../../assets/img/footer-youtube.png';
+import pinterestIcon from '../../assets/img/footer-pinterest.png';
+import periscopeIcon from '../../assets/img/footer-periscope.png';
 
 // Funzione Footer socials
 
 export default function FooterSocials() {
     return (
-        <div className="social-container">
-            <div>
-                <a href='#' className='sign-up-btn'>Sign up now!</a>
+        <div className='social-banner'>
+            <div className=" container social-container">
+                <div>
+                    <button className='sign-up-btn'>Sign up now!</button>
+                </div>
+
+                <ul className="social-list">
+                    <li className='follow-us-link'>Follow Us</li>
+                    <li><img src={facebookIcon} alt="Facebook Logo" /></li>
+                    <li><img src={twitterIcon} alt="Twitter Logo" /></li>
+                    <li><img src={youtubeIcon} alt="Youtube Logo" /></li>
+                    <li><img src={pinterestIcon} alt="Pinterest Logo" /></li>
+                    <li><img src={periscopeIcon} alt="Periscope Logo" /></li>
+                </ul>
             </div>
 
-            <ul className="social-list">
-                <li className='follow-us-link'>Follow Us</li>
-                <li><img src={FacebookIcon} alt="Facebook Logo" /></li>
-                <li><img src={TwitterIcon} alt="Twitter Logo" /></li>
-                <li><img src={YoutubeIcon} alt="Youtube Logo" /></li>
-                <li><img src={PinterestIcon} alt="Pinterest Logo" /></li>
-                <li><img src={PeriscopeIcon} alt="Periscope Logo" /></li>
-            </ul>
+
+
         </div>
+
     );
 }
