@@ -1,27 +1,15 @@
-// importazione logo
-import logo from '../assets/img/dc-logo.png';
+// importazione componenti Logo e Menu
+import Logo from './header-components/Logo.jsx';
+import Menu from './header-components/Menu.jsx';
 
 // Funzione Header 
 
 export default function Header() {
     return (
         <header>
-            <nav>
-                <div className='logo'>
-                    <img src={logo} alt="Logo-dc" />
-                </div>
-                <ul className='menu-list'>
-                    <li>Characters</li>
-                    <li>Comics</li>
-                    <li>Movies</li>
-                    <li>Tv</li>
-                    <li>Games</li>
-                    <li>Collectibles</li>
-                    <li>Videos</li>
-                    <li>Fans</li>
-                    <li>News</li>
-                    <li>Shop</li>
-                </ul>
+            <nav className='container'>
+                <Logo />
+                <Menu />
             </nav>
         </header>
     );
