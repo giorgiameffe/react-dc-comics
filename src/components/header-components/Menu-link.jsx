@@ -1,7 +1,8 @@
+import menuLinks from '../Header.jsx'
 // Funzione per i link del Menu
 
-export default function MenuLinks(props) {
+export default function MenuLink(props) {
     return (
-        <li><a href="#">{props.link}</a></li>
+        <li><a href="#">{props.title}</a></li>
     );
 }

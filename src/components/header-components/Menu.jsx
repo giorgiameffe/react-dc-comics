@@ -1,25 +1,24 @@
 // importazione link Menu
-import MenuLinks from "./Menu-link";
+import MenuLink from "./Menu-link.jsx";
+import menuLinks from '../Header.jsx';
+import Header from '../Header.jsx';
 
 // Funzione Menu
 
-export default function Menu() {
-
-    const menuLinks = ['Characters', 'Comics', 'Movies', 'TV', 'Games', 'Collectibles', 'Videos', 'Fans', 'News', 'Shop'];
-    console.log(menuLinks)
+export default function Menu(props) {
 
     return (
         <ul className='menu-list'>
-            <MenuLinks link={menuLinks[0]} />
-            <MenuLinks link={menuLinks[1]} />
-            <MenuLinks link={menuLinks[2]} />
-            <MenuLinks link={menuLinks[3]} />
-            <MenuLinks link={menuLinks[4]} />
-            <MenuLinks link={menuLinks[5]} />
-            <MenuLinks link={menuLinks[6]} />
-            <MenuLinks link={menuLinks[7]} />
-            <MenuLinks link={menuLinks[8]} />
-            <MenuLinks link={menuLinks[9]} />
+            <MenuLink title={props.link[0]} />
+            <MenuLink title={props.link[1]} />
+            <MenuLink title={props.link[2]} />
+            <MenuLink title={props.link[3]} />
+            <MenuLink title={props.link[4]} />
+            <MenuLink title={props.link[5]} />
+            <MenuLink title={props.link[6]} />
+            <MenuLink title={props.link[7]} />
+            <MenuLink title={props.link[8]} />
+            <MenuLink title={props.link[9]} />
         </ul>
     )
 }
