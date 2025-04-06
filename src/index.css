@@ -89,6 +89,8 @@ main h2 {
 
 .nav-element {
   background-color: #0282f9;
+  position: relative;
+  z-index: 3;
 }
 
 .f-navbar {
@@ -130,6 +132,7 @@ main h2 {
   display: flex;
   padding: 45px 0px;
   gap: 30px;
+  position: relative;
 }
 
 h3 {
@@ -150,10 +153,27 @@ h3 {
   color: #959595;
 }
 
+/* footer logo */
+
+.footer-logo {
+  height: 650px;
+  position: absolute;
+  top: -110px;
+  right: 10px;
+}
+
+.footer-logo img {
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Footer socials */
 
 .social-banner {
   background-color: #303030;
+  position: relative;
+  z-index: 3;
+  ;
 }
 
 .social-container {

@@ -1,6 +1,8 @@
 // importazione Info Link
 import InfoLink from './Info-link.jsx';
 
+import FooterLogo from './Footer-logo.jsx';
+
 // Funzione FooterInfo
 
 export default function FooterInfo(props) {
@@ -18,7 +20,6 @@ export default function FooterInfo(props) {
                         <InfoLink text={props.comics[4]} />
                         <InfoLink text={props.comics[5]} />
                         <InfoLink text={props.comics[6]} />
-
                     </ul>
 
                     <h3>Shop</h3>
@@ -53,6 +54,9 @@ export default function FooterInfo(props) {
                         <InfoLink text={props.sites[3]} />
                         <InfoLink text={props.sites[4]} />
                     </ul>
+                </div>
+                <div className='footer-logo'>
+                    <FooterLogo />
                 </div>
             </div>
         </div>
