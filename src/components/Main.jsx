@@ -1,3 +1,6 @@
+// importazione lista di comics
+import comicsList from '../data/comics.js';
+
 // Funzione Main
 
 export default function Main() {
