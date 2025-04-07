@@ -13,9 +13,7 @@ export default function Main() {
         <main>
             <Jumbotron />
             <div className='current-label'>Current Series</div>
-            <div className="container comics-raw">
-                <ComicsList comics={comicsList} />
-            </div>
+            <ComicsList comics={comicsList} />
             <div className='load-button'>
                 <button>Load More</button>
             </div>
