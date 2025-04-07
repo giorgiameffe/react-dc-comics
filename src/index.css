@@ -89,7 +89,7 @@ main {
   background-color: #1c1c1c;
 }
 
-/* Jumbotron */
+/* jumbotron */
 
 .jumbotron img {
   height: 400px;
@@ -97,6 +97,8 @@ main {
   object-position: top;
   position: relative;
 }
+
+/* label current series */
 
 .current-label {
   color: #ffffff;
@@ -112,7 +114,7 @@ main {
   bottom: 130px;
 }
 
-/* Comic Cards */
+/* comic Cards */
 
 .comics-raw {
   display: flex;
@@ -140,6 +142,24 @@ main {
   color: #ffffff;
   text-transform: uppercase;
   margin-top: 20px;
+}
+
+/* button Load More */
+
+.load-button button {
+  all: unset;
+  color: #ffffff;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 13px 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.load-button {
+  text-align: center;
 }
 
 /* Footer navbar */

@@ -12,11 +12,11 @@ export default function Main() {
     return (
         <main>
             <Jumbotron />
-            <div>Current Series</div>
+            <div className='current-label'>Current Series</div>
             <div className="container comics-raw">
                 <ComicsList comics={comicsList} />
             </div>
-            <div>
+            <div className='load-button'>
                 <button>Load More</button>
             </div>
         </main>);
