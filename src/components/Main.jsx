@@ -5,6 +5,8 @@ import Jumbotron from './main-components/Jumbotron.jsx';
 
 import ComicCard from './main-components/Comic-card.jsx';
 
+import ComicList from './main-components/Comic-lists.jsx'
+
 // Funzione Main
 
 export default function Main() {
@@ -13,7 +15,7 @@ export default function Main() {
         <main>
             <Jumbotron />
             <div className="container">
-                <ComicCard comics={comicsList} />
+                <ComicList comics={comicsList} />
             </div>
         </main>);
 }
