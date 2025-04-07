@@ -12,7 +12,7 @@ ul {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 a {
@@ -85,6 +85,39 @@ main h2 {
   padding: 50px 0px;
 }
 
+main {
+  background-color: #1c1c1c;
+}
+
+/* Comic Cards */
+
+.comics-raw {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.comic-card {
+  width: calc((100% - 150px) / 6);
+}
+
+.comic-image {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.comic-image img {
+  object-fit: cover;
+  height: 100%;
+  object-position: top;
+}
+
+.comics-raw h5 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
 /* Footer navbar */
 
 .nav-element {
@@ -97,7 +130,6 @@ main h2 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  color: #ffffff;
   gap: 30px;
   padding: 40px 0px;
 }
@@ -106,6 +138,10 @@ main h2 {
   display: flex;
   align-items: center;
   cursor: pointer;
+}
+
+.navbar-text a {
+  color: #ffffff;
 }
 
 /* navbar img */

@@ -3,8 +3,10 @@
 export default function ComicCard({ comic }) {
 
     return (
-        <article>
-            <img src={comic.thumb} alt="" />
+        <article className="comic-card">
+            <div className="comic-image">
+                <img src={comic.thumb} alt={comic.series} />
+            </div>
             <h5>{comic.series}</h5>
         </article>
     );
